@@ -37,7 +37,7 @@ l
 #%%
 # as well as interoperate with numpy arrays, which is very
 # handy to work with data you may have already processed
-# with other machine learning tools liek sklearn
+# with other machine learning tools like sklearn
 import numpy
 n = numpy.linspace(0, 5, 5)
 n
