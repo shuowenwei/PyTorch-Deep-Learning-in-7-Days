@@ -26,7 +26,7 @@ model = torch.nn.Sequential(
 
 #%%
 test_results = model(inputs)
-test_results
+test_results, test_results.size()
 
 #%%
 # don't forget the loss function! the loss function is the
