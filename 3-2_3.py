@@ -175,6 +175,7 @@ class Model(torch.nn.Module):
         return torch.nn.functional.softmax(buffer, dim=-1)
 
 model = Model(shrooms[0][0].shape[0], shrooms[0][1].shape[0])
+# model = Model(117, 2)
 optimizer = torch.optim.Adam(model.parameters())
 loss_function = torch.nn.BCELoss()
 
@@ -198,7 +199,7 @@ for epoch in range(4):
         loss = loss_function(results, outputs)
         loss.backward()
         optimizer.step()
-    print("Loss: {0}".format(loss))
+    print("{0} Epoch: Loss: {1}".format(epoch, loss))
 
 
 #%%

@@ -1,2 +1,17 @@
 .ipynb_checkpoints/
 .vscode/
+var/cifar-10-python.tar.gz
+var/cifar-10-batches-py/test_batch
+var/MNIST/raw/t10k-images-idx3-ubyte
+var/MNIST/raw/t10k-labels-idx1-ubyte
+var/MNIST/raw/train-images-idx3-ubyte
+var/MNIST/raw/train-labels-idx1-ubyte
+var/cifar-10-batches-py/batches.meta
+var/cifar-10-batches-py/data_batch_1
+var/cifar-10-batches-py/data_batch_2
+var/cifar-10-batches-py/data_batch_3
+var/cifar-10-batches-py/data_batch_4
+var/cifar-10-batches-py/data_batch_5
+var/cifar-10-batches-py/readme.html
+var/MNIST/processed/training.pt
+var/MNIST/processed/test.pt
